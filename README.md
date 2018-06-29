@@ -1,6 +1,6 @@
 # Word Counter
 
-##### Checks how frequently a word appears in a given string
+##### Checks how frequently a word appears in a given string.
 
 #### By Lan Dam, 06.29.2018
 
@@ -27,14 +27,16 @@ ldam77@yahoo.com
 * Let the user enter a word and a sentence.
 * Count the number of times the given word appears in the sentence.
 * Word comparison is case insensitive.
+* Word can be separate by space or comma.
 
 
-| Input                                       | Expected Output   |
-| ------------------------------------------- |------------------ |
-| Word: hi  Sentence: hi                      | 1                 |
-| Word: hello  Sentence: hello there          | 1                 |
-| Word: I  Sentence: I am what i eat          | 2                 |
-| Word: he  Sentence: he is over there        | 1                 |
+| Input                                                                                                         | Expected Output   |
+| ------------------------------------------------------------------------------------------------------------- |------------------ |
+| Word: hi  Sentence: hi                                                                                        | 1                 |
+| Word: hello  Sentence: hello there                                                                            | 1                 |
+| Word: I  Sentence: I am what i eat                                                                            | 2                 |
+| Word: he  Sentence: he is over there                                                                          | 1                 |
+| Word: chocolate  Sentence: I love chocolate, Chocolate ice cream, chocolate candy bar, and anything chocolate | 4                 |
 
 
 

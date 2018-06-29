@@ -19,7 +19,7 @@ namespace WordCounter
 
     public int CountWordFrequency(string sentence)
     {
-      string[] wordsInSentence = sentence.Split(' ');
+      string[] wordsInSentence = sentence.Split(' ', ',');
       int counter = 0;
 
       foreach(string myWord in wordsInSentence)
@@ -39,7 +39,7 @@ namespace WordCounter
     {
       Console.WriteLine("Please enter a word:");
       string word = Console.ReadLine();
-      Console.WriteLine("Please enter a sentence or list of words separate by space:");
+      Console.WriteLine("Please enter a sentence or list of words:");
       string sentence = Console.ReadLine();
       RepeatCounter repeatCounter = new RepeatCounter(word);
       int count = repeatCounter.CountWordFrequency(sentence);

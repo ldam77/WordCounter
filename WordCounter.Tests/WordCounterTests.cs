@@ -84,5 +84,21 @@ namespace WordCounter.Tests
       // assert
       Assert.AreEqual(count, expectedResult);
     }
+    [TestMethod]
+    public void CountWordFrequency5_ReturnFrequencyOfWordInSentence()
+    {
+      // arrange
+      string word = "chocolate";
+      string sentence = "I love chocolate, chocolate ice cream, chocolate candy bar, and anything chocolate";
+      int count = 4;
+      RepeatCounter repeatCounter = new RepeatCounter(word);
+
+
+      // act
+      int expectedResult = repeatCounter.CountWordFrequency(sentence);
+
+      // assert
+      Assert.AreEqual(count, expectedResult);
+    }
   }
 }
