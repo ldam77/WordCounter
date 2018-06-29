@@ -36,6 +36,53 @@ namespace WordCounter.Tests
       // assert
       Assert.AreEqual(count, expectedResult);
     }
-    
+    [TestMethod]
+    public void CountWordFrequency2_ReturnFrequencyOfWordInSentence()
+    {
+      // arrange
+      string word = "hello";
+      string sentence = "hello there";
+      int count = 1;
+      RepeatCounter repeatCounter = new RepeatCounter(word);
+
+
+      // act
+      int expectedResult = repeatCounter.CountWordFrequency(sentence);
+
+      // assert
+      Assert.AreEqual(count, expectedResult);
+    }
+    [TestMethod]
+    public void CountWordFrequency3_ReturnFrequencyOfWordInSentence()
+    {
+      // arrange
+      string word = "I";
+      string sentence = "I am what i eat";
+      int count = 2;
+      RepeatCounter repeatCounter = new RepeatCounter(word);
+
+
+      // act
+      int expectedResult = repeatCounter.CountWordFrequency(sentence);
+
+      // assert
+      Assert.AreEqual(count, expectedResult);
+    }
+    [TestMethod]
+    public void CountWordFrequency4_ReturnFrequencyOfWordInSentence()
+    {
+      // arrange
+      string word = "he";
+      string sentence = "He is over there";
+      int count = 1;
+      RepeatCounter repeatCounter = new RepeatCounter(word);
+
+
+      // act
+      int expectedResult = repeatCounter.CountWordFrequency(sentence);
+
+      // assert
+      Assert.AreEqual(count, expectedResult);
+    }
   }
 }

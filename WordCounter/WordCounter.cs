@@ -6,7 +6,7 @@ namespace WordCounter
   public class RepeatCounter
   {
     private string Word;
-    
+
     public RepeatCounter(string inputWord = "")
     {
       Word = inputWord;
@@ -37,7 +37,13 @@ namespace WordCounter
   {
     public static void Main()
     {
-
+      Console.WriteLine("Please enter a word:");
+      string word = Console.ReadLine();
+      Console.WriteLine("Please enter a sentence or list of words separate by space:");
+      string sentence = Console.ReadLine();
+      RepeatCounter repeatCounter = new RepeatCounter(word);
+      int count = repeatCounter.CountWordFrequency(sentence);
+      Console.WriteLine("The word " + word + " appears " + count + " times.");
     }
   }
 }

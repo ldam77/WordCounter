@@ -6,7 +6,7 @@
 
 ## Description
 
-An application that lets users enter a word and a sentence.  This app will then count the number of times the word appear in the sentence.  This will only check for full word matches.
+An application that lets users enter a word and a sentence.  This app will then count the number of times the word appear in the sentence.  This will only check for full word matches and is case insensitive.
 
 
 ## Setup
@@ -26,13 +26,14 @@ ldam77@yahoo.com
 
 * Let the user enter a word and a sentence.
 * Count the number of times the given word appears in the sentence.
+* Word comparison is case insensitive.
 
 
 | Input                                       | Expected Output   |
 | ------------------------------------------- |------------------ |
 | Word: hi  Sentence: hi                      | 1                 |
 | Word: hello  Sentence: hello there          | 1                 |
-| Word: I  Sentence: I am what I eat          | 2                 |
+| Word: I  Sentence: I am what i eat          | 2                 |
 | Word: he  Sentence: he is over there        | 1                 |
 
 
