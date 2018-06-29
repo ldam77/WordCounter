@@ -1,0 +1,14 @@
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounterTests.deps.json
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounterTests.runtimeconfig.json
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounterTests.runtimeconfig.dev.json
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounterTests.dll
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounterTests.pdb
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounterTests.csproj.CoreCompileInputs.cache
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounterTests.AssemblyInfo.cs
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounterTests.dll
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounterTests.pdb
