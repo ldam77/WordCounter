@@ -20,5 +20,22 @@ namespace WordCounter.Tests
       // assert
       Assert.AreEqual(word, expectedResult);
     }
+    [TestMethod]
+    public void CountWordFrequency_ReturnFrequencyOfWordInSentence()
+    {
+      // arrange
+      string word = "hi";
+      string sentence = "hi";
+      int count = 1;
+      RepeatCounter repeatCounter = new RepeatCounter(word);
+
+
+      // act
+      int expectedResult = repeatCounter.CountWordFrequency(sentence);
+
+      // assert
+      Assert.AreEqual(count, expectedResult);
+    }
+    
   }
 }
