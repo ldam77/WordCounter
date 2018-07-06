@@ -6,6 +6,22 @@ div#navbar {
 }
 
 body {
-  background: #bfa89e;
   color: #283044;
+  background: #bfa89e url(/img/paper.gif) no-repeat center fixed;
+  text-align: center;
+  font-size: 2em;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 5%;
+  margin: 5%;
+}
+
+input {
+  display: block;
+  margin: auto;
+}
+.form-control{
+  width: 75%;
 }
