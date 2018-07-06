@@ -7,13 +7,13 @@ using WordCounter.Models;
 namespace WordCounter.Tests
 {
     [TestClass]
-    public class RepeatCountersControllerTest
+    public class WordCountersControllerTest
     {
       [TestMethod]
         public void Index_ReturnsCorrectView_True()
         {
             //Arrange
-            RepeatCountersController controller = new RepeatCountersController();
+            WordCountersController controller = new WordCountersController();
 
             //Act
             ActionResult indexView = controller.Index();
@@ -25,7 +25,7 @@ namespace WordCounter.Tests
         public void Index_HasCorrectModelType_ItemList()
         {
             //Arrange
-            ViewResult indexView = new RepeatCountersController().Index() as ViewResult;
+            ViewResult indexView = new WordCountersController().Index() as ViewResult;
 
             //Act
             var result = indexView.ViewData.Model;
@@ -37,13 +37,13 @@ namespace WordCounter.Tests
           public void CreateForm_ReturnsCorrectView_True()
           {
               //Arrange
-              RepeatCountersController controller = new RepeatCountersController();
+              WordCountersController controller = new WordCountersController();
 
               //Act
               ActionResult indexView = controller.CreateForm();
 
               //Assert
               Assert.IsInstanceOfType(indexView, typeof(ViewResult));
-          }          
+          }
     }
 }

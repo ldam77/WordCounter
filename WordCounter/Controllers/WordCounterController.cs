@@ -4,25 +4,25 @@ using WordCounter.Models;
 
 namespace WordCounter.Controllers
 {
-  public class RepeatCountersController : Controller
+  public class WordCountersController : Controller
   {
-    [HttpGet("/RepeatCounters")]
+    [HttpGet("/WordCounters")]
     public ActionResult Index()
     {
       return View(RepeatCounter.GetAll());
     }
-    [HttpGet("/RepeatCounters/new")]
+    [HttpGet("/WordCounters/new")]
     public ActionResult CreateForm()
     {
       return View();
     }
-    [HttpPost("/RepeatCounters")]
+    [HttpPost("/WordCounters")]
     public ActionResult Create(string word, string sentence)
     {
       RepeatCounter newCounter = new RepeatCounter(word, sentence);
       return RedirectToAction("Index");
     }
-    [HttpPost("/RepeatCounters/Delete")]
+    [HttpPost("/WordCounters/Delete")]
     public ActionResult DeleteAll()
     {
       RepeatCounter.DeleteAll();

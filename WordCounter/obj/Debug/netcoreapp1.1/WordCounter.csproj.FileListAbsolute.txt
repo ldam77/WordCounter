@@ -7,3 +7,12 @@ C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter\obj\Debu
 C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.pdb
 C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.json
 C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.dev.json
+C:\Users\Lan\Desktop\Epicodus\C#\WordCounter\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.deps.json
+C:\Users\Lan\Desktop\Epicodus\C#\WordCounter\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.json
+C:\Users\Lan\Desktop\Epicodus\C#\WordCounter\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.dev.json
+C:\Users\Lan\Desktop\Epicodus\C#\WordCounter\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\Lan\Desktop\Epicodus\C#\WordCounter\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\Lan\Desktop\Epicodus\C#\WordCounter\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.csproj.CoreCompileInputs.cache
+C:\Users\Lan\Desktop\Epicodus\C#\WordCounter\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.AssemblyInfo.cs
+C:\Users\Lan\Desktop\Epicodus\C#\WordCounter\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\Lan\Desktop\Epicodus\C#\WordCounter\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.pdb
