@@ -1,0 +1,8 @@
+div#navbar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  color: #CCC;
+  background: #333;
+  padding: 8px;
+}
