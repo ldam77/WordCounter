@@ -1,20 +1,53 @@
 using System;
 using System.Linq;
+using System.Collections.Generic;
 
-namespace WordCounter
+namespace WordCounter.Models
 {
   public class RepeatCounter
   {
     private string Word;
+    private string Sentence;
+    private int Id;
+    private static int lastId = 0;
+    private static List<RepeatCounter> Counters = new List<RepeatCounter> {};
 
-    public RepeatCounter(string inputWord = "")
+    public RepeatCounter(string inputWord = "", string newSentence = "")
     {
       Word = inputWord;
+      Sentence = newSentence;
+      counters.Add(this);
+      Id = ++lastId;
     }
 
     public string GetWord()
     {
       return Word;
+    }
+
+    public string GetSentence()
+    {
+      return Sentence;
+    }
+
+    public int GetId()
+    {
+      return Id;
+    }
+
+    public static List<RepeatCounter> GetAll()
+    {
+      return Counters;
+    }
+
+    public static void DeleteAll()
+    {
+      Counters.Clear();
+    }
+
+    public static RepeatCounter Find(int searchID)
+    {
+      return Counters[searchID - 1];
     }
 
     public int CountWordFrequency(string sentence)
