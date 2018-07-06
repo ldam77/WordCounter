@@ -1,1 +1,14 @@
 <h1>List of counter</h1>
+  @foreach(var repeatCounter in Model)
+  {
+    <ul>
+      <li>Word: @repeatCounter.GetWord()</li>
+      <li>Sentence: @repeatCounter.GetSentence()</li>
+      <li>Count: @repeatCounter.GetCount()</li>
+    </ul>
+  }
+
+  <a href="/RepeatCounters/new">Add a new counter</a>
+  <form action="/RepeatCounters/Delete" method="post">
+    <button type="submit" name="button">Clear counters!</button>
+  </form>

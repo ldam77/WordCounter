@@ -8,6 +8,7 @@ namespace WordCounter.Models
   {
     private string Word;
     private string Sentence;
+    private int repeatCounter = 0;
     private int Id;
     private static int lastId = 0;
     private static List<RepeatCounter> Counters = new List<RepeatCounter> {};
@@ -16,8 +17,9 @@ namespace WordCounter.Models
     {
       Word = inputWord;
       Sentence = newSentence;
-      counters.Add(this);
+      Counters.Add(this);
       Id = ++lastId;
+      this.CountWordFrequency();
     }
 
     public string GetWord()
@@ -35,6 +37,11 @@ namespace WordCounter.Models
       return Id;
     }
 
+    public int GetCount()
+    {
+      return repeatCounter;
+    }
+
     public static List<RepeatCounter> GetAll()
     {
       return Counters;
@@ -50,33 +57,31 @@ namespace WordCounter.Models
       return Counters[searchID - 1];
     }
 
-    public int CountWordFrequency(string sentence)
+    private void CountWordFrequency()
     {
-      string[] wordsInSentence = sentence.Split(' ', ',');
-      int counter = 0;
+      string[] wordsInSentence = Sentence.Split(' ', ',');
 
       foreach(string myWord in wordsInSentence)
       {
         if(String.Equals(Word, myWord, StringComparison.OrdinalIgnoreCase))
         {
-          counter++;
+          repeatCounter++;
         }
       }
-      return counter;
     }
   }
 
-  public class Program
-  {
-    public static void Main()
-    {
-      Console.WriteLine("Please enter a word:");
-      string word = Console.ReadLine();
-      Console.WriteLine("Please enter a sentence or list of words:");
-      string sentence = Console.ReadLine();
-      RepeatCounter repeatCounter = new RepeatCounter(word);
-      int count = repeatCounter.CountWordFrequency(sentence);
-      Console.WriteLine("The word " + word + " appears " + count + " times.");
-    }
-  }
+  // public class Program
+  // {
+  //   public static void Main()
+  //   {
+  //     Console.WriteLine("Please enter a word:");
+  //     string word = Console.ReadLine();
+  //     Console.WriteLine("Please enter a sentence or list of words:");
+  //     string sentence = Console.ReadLine();
+  //     RepeatCounter repeatCounter = new RepeatCounter(word);
+  //     int count = repeatCounter.CountWordFrequency(sentence);
+  //     Console.WriteLine("The word " + word + " appears " + count + " times.");
+  //   }
+  // }
 }

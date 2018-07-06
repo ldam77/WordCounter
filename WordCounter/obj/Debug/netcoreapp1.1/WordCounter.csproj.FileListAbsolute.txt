@@ -5,3 +5,5 @@ C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter\obj\Debu
 C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.AssemblyInfo.cs
 C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.dll
 C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.json
+C:\Users\ldam7\Desktop\Epicodus\Csharp\WordCounter.Solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.dev.json
