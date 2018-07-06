@@ -33,5 +33,18 @@ namespace WordCounter.Tests
             //Assert
             Assert.IsInstanceOfType(result, typeof(List<RepeatCounter>));
         }
+        [TestMethod]
+          public void CreateForm_ReturnsCorrectView_True()
+          {
+              //Arrange
+              RepeatCountersController controller = new RepeatCountersController();
+
+              //Act
+              ActionResult indexView = controller.CreateForm();
+
+              //Assert
+              Assert.IsInstanceOfType(indexView, typeof(ViewResult));
+          }
+          
     }
 }
