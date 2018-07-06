@@ -1,6 +1,6 @@
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordCounter;
+using WordCounter.Models;
 
 namespace WordCounter.Tests
 {
@@ -27,11 +27,11 @@ namespace WordCounter.Tests
       string word = "hi";
       string sentence = "hi";
       int count = 1;
-      RepeatCounter repeatCounter = new RepeatCounter(word);
+      RepeatCounter repeatCounter = new RepeatCounter(word, sentence);
 
 
       // act
-      int expectedResult = repeatCounter.CountWordFrequency(sentence);
+      int expectedResult = repeatCounter.GetCount();
 
       // assert
       Assert.AreEqual(count, expectedResult);
@@ -43,11 +43,11 @@ namespace WordCounter.Tests
       string word = "hello";
       string sentence = "hello there";
       int count = 1;
-      RepeatCounter repeatCounter = new RepeatCounter(word);
+      RepeatCounter repeatCounter = new RepeatCounter(word, sentence);
 
 
       // act
-      int expectedResult = repeatCounter.CountWordFrequency(sentence);
+      int expectedResult = repeatCounter.GetCount();
 
       // assert
       Assert.AreEqual(count, expectedResult);
@@ -59,11 +59,11 @@ namespace WordCounter.Tests
       string word = "I";
       string sentence = "I am what i eat";
       int count = 2;
-      RepeatCounter repeatCounter = new RepeatCounter(word);
+      RepeatCounter repeatCounter = new RepeatCounter(word, sentence);
 
 
       // act
-      int expectedResult = repeatCounter.CountWordFrequency(sentence);
+      int expectedResult = repeatCounter.GetCount();
 
       // assert
       Assert.AreEqual(count, expectedResult);
@@ -75,11 +75,11 @@ namespace WordCounter.Tests
       string word = "he";
       string sentence = "He is over there";
       int count = 1;
-      RepeatCounter repeatCounter = new RepeatCounter(word);
+      RepeatCounter repeatCounter = new RepeatCounter(word, sentence);
 
 
       // act
-      int expectedResult = repeatCounter.CountWordFrequency(sentence);
+      int expectedResult = repeatCounter.GetCount();
 
       // assert
       Assert.AreEqual(count, expectedResult);
@@ -91,11 +91,11 @@ namespace WordCounter.Tests
       string word = "chocolate";
       string sentence = "I love chocolate, chocolate ice cream, chocolate candy bar, and anything chocolate";
       int count = 4;
-      RepeatCounter repeatCounter = new RepeatCounter(word);
+      RepeatCounter repeatCounter = new RepeatCounter(word, sentence);
 
 
       // act
-      int expectedResult = repeatCounter.CountWordFrequency(sentence);
+      int expectedResult = repeatCounter.GetCount();
 
       // assert
       Assert.AreEqual(count, expectedResult);
